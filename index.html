@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victoria's Resume</title>
+    <script
+      src="https://kit.fontawesome.com/e5528e994f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main id="main-container" class="main-container">
+      <section id="title-section" class="title-section">
+        <h1 class="name" id="name">Victoria's Resume</h1>
+        <div class="contact">
+          <span id="phone">
+            <!-- <img src="/assets/phone.svg" alt="phone" class="phone-image" /> -->
+            <a href="tel:16473219484">
+              <i class="fa-duotone fa-solid fa-mobile"></i>
+              +1(647)-321-9484
+            </a>
+          </span>
+          <span class="email">
+            <!-- <img src="/assets/mail.svg" alt="email" class="mail-image" /> -->
+
+            <a href="mailto:victoria.ajuwon0@gmail.com" target="_blank">
+              <i class="fa-regular fa-paper-plane"></i>
+              victoria-ajuwon
+            </a>
+          </span>
+          <span class="linkedin">
+            <!-- <img
+              src="/assets/linkedin.svg"
+              alt="linkedin"
+              class="linkedin-image"
+            /> -->
+            <a
+              href="https://www.linkedin.com/in/victoria-ajuwon/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              victoria-ajuwon
+            </a>
+          </span>
+          <span class="github">
+            <!-- <img src="/assets/github.svg" alt="github" class="github-image" /> -->
+            <a href="https://github.com/abiolaah" target="_blank">
+              <i class="fa-brands fa-github"></i>
+              abiolaah
+            </a>
+          </span>
+          <span class="website">
+            <!-- <img
+              src="/assets/website.svg"
+              alt="website"
+              class="website-image"
+            /> -->
+            <a href="https://victoriajuwon.netlify.app/" target="_blank">
+              <i class="fa-solid fa-link"></i>
+              victoria-ajuwon
+            </a>
+          </span>
+        </div>
+      </section>
+
+      <section id="summary-section" class="summary-section">
+        <h2 class="section-title" id="summary-title">Summary</h2>
+        <p class="summary-details">
+          Energetic and detail-oriented Software Engineering Technician graduate
+          seeking a Quality Assurance Engineer position. Bringing a solid
+          foundation in software development and a commitment to learning and
+          contributing to innovative projects. Enthusiastic about applying
+          theoretical knowledge in a practical setting, leveraging skills in
+          web-based technologies, and a proactive approach to problem-solving.
+        </p>
+      </section>
+
+      <section id="skills-section" class="skills-section">
+        <h2 class="section-title" id="skills-title">
+          Skills and Core Competencies
+        </h2>
+        <div id="skills-list" class="skills-list"></div>
+      </section>
+      <section id="experience-section" class="experience-section">
+        <h2 class="section-title" id="experience-title">Experience</h2>
+        <div id="experience-list"></div>
+      </section>
+      <section id="education-section" class="education-section">
+        <h2 class="section-title" id="education-title">Education</h2>
+        <div id="education-list">
+          <ul></ul>
+        </div>
+      </section>
+      <section id="project-section" class="project-section">
+        <h2 class="section-title" id="project-title">Projects</h2>
+        <div id="projects-list">
+          <ol></ol>
+        </div>
+      </section>
+    </main>
+    <script src="data.js"></script>
+    <!-- <script type="module" src="script.js"></script> -->
+    <script src="populate.js"></script>
+  </body>
+</html>
